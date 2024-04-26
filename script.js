@@ -10,7 +10,10 @@ function getColorFromEmotion(emotionName) {
 }
 
 document.getElementById("getColorInfo").addEventListener("click", function() {
-    let emotionName = document.getElementById("emotionNameInput").value;
+    let selectElement = document.getElementById("emotionNameSelect");
+    let selectedOption = selectElement.options[selectElement.selectedIndex];
+    let emotionName = selectedOption.value;
+    
     let color = getColorFromEmotion(emotionName);
     generateColorImage(color);
 });
