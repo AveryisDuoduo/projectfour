@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 30px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto; 
+    text-align: center;
+}
+
+#emotionNameInput {
+    height: 60px; 
+    width: 300px; 
+    font-size: 30px;
+    margin-bottom: 10px; 
+}
+
+#getColorInfo {
+    height: 60px; 
+    font-size: 30px;
+    margin-top: 10px; 
+}
+
+
+#colorImage {
+    margin-top: 20px;
+}
+
+#colorImage img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
+
+
+.comfortaa {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+button {
+    height: 48px;
+    vertical-align: middle;
+}
+
+#bodyImage img {
+    width: 150px; 
+    height: auto; 
+}
+
